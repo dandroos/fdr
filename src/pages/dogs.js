@@ -68,6 +68,13 @@ function DogsPage(props) {
     }
   }, new Date("1990-01-01"))
 
+  let sharePic;
+  for(let x in data.allMarkdownRemark.edges){
+    if(!x.node.frontmatter.adopted){
+      sharePic = x.node.frontmatter.image[0].childImageSharp.fixed.src
+    }
+  }
+
   moment.locale(props.lang)
 
   return (
@@ -75,7 +82,7 @@ function DogsPage(props) {
       <SEO
         title={language[props.lang].meet_the_dogs}
         description={language[props.lang].they_cant_wait}
-        image={data.allMarkdownRemark.edges[0].node.frontmatter.image[0].childImageSharp.fixed.src}
+        image={sharePic}
       />
       <div className="min-vh-100">
         <Container className="" style={{ paddingTop: "6rem" }}>
