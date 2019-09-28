@@ -71,10 +71,10 @@ function SEO({ description, lang, meta, title, image }) {
           name: 'og:image',
           content: image
         },
-        {
-          name: 'twitter:image',
-          content: image
-        }
+        // {
+        //   name: 'twitter:image',
+        //   content: image
+        // }
       ].concat(meta)}
     />
   )
