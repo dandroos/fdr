@@ -70,9 +70,10 @@ function DogsPage(props) {
 
   let sharePic;
   for(let x in data.allMarkdownRemark.edges){
-    if(!x.node.frontmatter.adopted){
-      sharePic = x.node.frontmatter.image[0].childImageSharp.fixed.src
-    }
+    console.log(x)
+    // if(!x.node.frontmatter.adopted){
+    //   sharePic = x.node.frontmatter.image[0].childImageSharp.fixed.src
+    // }
   }
 
   moment.locale(props.lang)
