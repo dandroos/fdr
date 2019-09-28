@@ -70,12 +70,12 @@ function DogsPage(props) {
 
   let sharePic;
   for(let x in data.allMarkdownRemark.edges){
-    console.log(x)
-    // if(!x.node.frontmatter.adopted){
-    //   sharePic = x.node.frontmatter.image[0].childImageSharp.fixed.src
-    // }
+    if(!data.allMarkdownRemark.edges[x].node.frontmatter.adopted){
+      sharePic = data.allMarkdownRemark.edges[x].node.frontmatter.image[0].childImageSharp.fixed.src
+      break;
+    }
   }
-
+console.log(sharePic)
   moment.locale(props.lang)
 
   return (
@@ -100,7 +100,7 @@ function DogsPage(props) {
               <ShareBar />
             </Col>
           </Row>
-          <Row clasName="text-center">
+          <Row className="text-center">
             {data.allMarkdownRemark.edges.map((dog, i) => {
               if (!dog.node.frontmatter.adopted) {
                 return (
