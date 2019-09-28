@@ -8,8 +8,8 @@ function AboutPage(props) {
 
   const cta = {
     text: 'get_involved',
-    link: '/help-us',
-    btn_text: 'help_us'
+    link: '/volunteer',
+    btn_text: 'volunteer'
   }
 
     return (

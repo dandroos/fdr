@@ -71,10 +71,10 @@ function DogsPage(props) {
             <FormattedMessage id="meet_the_dogs" defaultMessage="en" />
           </h1>
           <p className="lead"><FormattedMessage id="they_cant_wait" defaultMessage="en" /></p>
-          <Row>
+          <Row clasName="text-center">
             {data.allMarkdownRemark.edges.map((dog, i) => {
               if (!dog.node.frontmatter.adopted) {
-                return <Col sm={12} lg={4}>
+                return <Col sm={12} md={6}>
                   <Dog data={dog.node.frontmatter} />
                 </Col>
               }

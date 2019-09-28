@@ -47,7 +47,7 @@ function DogData(props) {
       <AniLink fade to={props.data.path} className="no-underline">
         <Card className={`${pushUp} mb-4 text-dark shadow-sm text-center`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{
           transition: 'all .25s',
-          maxWidth: '24rem'
+          // maxWidth: '24rem'
         }}>
           <span style={{
             backgroundColor: 'rgba(255,255,255,.75)',

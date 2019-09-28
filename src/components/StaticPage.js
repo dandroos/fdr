@@ -14,7 +14,7 @@ export default function StaticPage(props) {
     return (
         <Layout>
             <Row>
-                <Col widths={['xs', 'sm', 'xxl']} sm={5} xxl={8} className="shadow pb-3 mb-3 bg-light" style={{
+                <Col widths={['xs', 'sm', 'xxl']} sm={5} xxl={7} className="shadow pb-3 mb-5 bg-light" style={{
                     transform: 'rotate(2deg)',
                     zIndex: 5000,
                     height: 'fit-content'
@@ -51,7 +51,7 @@ export default function StaticPage(props) {
                         </div>
                     </div>
                 </Col>
-                <Col widths={['xs', 'sm', 'xxl']} sm={7} xxl={4}>
+                <Col widths={['xs', 'sm', 'xxl']} sm={7} xxl={5}>
                     <Container className="content-margin">
                         {props.children}
                         {props.cta ? (

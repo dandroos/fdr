@@ -71,7 +71,7 @@ export default {
 
         // ADOPT
         adopt: 'Adopt',
-        ADOPT_paragraph: 'Many dogs end up in the dog shelter through no fault of their own.  Separated from their loved ones (although this love isn’t always two ways), in the shelter they are surrounded by unknowns, shut in a cage, confused, scared and sad.  For many of them the emotional shock is huge.',
+        ADOPT_paragraph: 'Many dogs end up in the shelter through no fault of their own.  Separated from their loved ones (although this love isn’t always two ways), in the shelter they are surrounded by unknowns, shut in a cage, confused, scared and sad.  For many of them the emotional shock is huge.',
         ADOPT_adopting_a_rescue_dog: 'Why adopt a rescue dog?',
         ADOPT_adopting_a_rescue_dog_paragraph: 'Although for many, puppies are much more attractive, adopting an adult dog has various benefits apart from the fact that you could be the last chance to one that could spend its last days shut in a cage.  Here are some additional benefits...',
         ADOPT_adopting_a_rescue_dog_list_1: 'The volunteers of the Association know the characters of the dogs and can advise you as to which would adapt best to your home.',
@@ -98,7 +98,7 @@ export default {
     
         // DONATE
         donate: 'Donate',
-        DONATE_paragraph: 'We are entirely volunteer-powered and rely on donations from the public.  We gratefully accept financial, food, bedding, toy and accessory donations for the dogs.',
+        DONATE_paragraph: 'We are entirely volunteer-powered and rely on donations from the public.  We gratefully accept monetary, food, bedding, toy and accessory donations for the dogs.',
         DONATE_MONEY_paragraph: 'If you would like to make a monetary donation, you can do so in the following ways...',
         DONATE_MONEY_title_1: 'PayPal',
         DONATE_MONEY_info_1: 'PayPal is a safe, flexible, quick and easy method to donate.  Our address for PayPal donations is info@fuerteventuradogrescue.org.',
@@ -112,7 +112,19 @@ export default {
         how_paypal: "How do I make a payment?",
 
         // BLOG
-        BLOG_intro: "Lea sobre lo que ha estado sucediendo en la perrera y artículos de consejos útiles."
+        BLOG_intro: "Lea sobre lo que ha estado sucediendo en la perrera y artículos de consejos útiles.",
+
+        // CONTACT
+        CONTACT_intro: "Whether you're interested in adopting, fostering, donating or volunteering, you can contact us via the following:",
+        CONTACT_messenger: "Messenger",
+        CONTACT_whatsapp: "WhatsApp",
+        CONTACT_phone_us: "Call",
+        CONTACT_email: "Email",
+        CONTACT_form_intro: "If you would just like to send us a quick message, please complete and submit the below form.",
+        CONTACT_form_name: "Name",
+        CONTACT_form_email: "Email",
+        CONTACT_form_message: "Message",
+        CONTACT_form_submit: "Submit"
     },
     "es": {
         hero_heading: "Somos su voz",
@@ -225,5 +237,17 @@ export default {
         DONATE_OTHER_info: "Si desea donar alimentos, ropa de cama, juguetes o accesorios, contáctenos para que podamos organizar un momento conveniente para que los lleve al refugio.",
         to_paypal: "Llévame a PayPal!",
         how_paypal: "¿Cómo hago un pago?",
+
+        // CONTACT
+        CONTACT_intro: "Si está interesado en adoptar, fomentar, donar o ser voluntario, puede contactarnos a través de lo siguiente:",
+        CONTACT_messenger: "Messenger",
+        CONTACT_whatsapp: "WhatsApp",
+        CONTACT_phone_us: "Llámenos",
+        CONTACT_email: "Correo electrónico",
+        CONTACT_form_intro: "Si solo desea enviarnos un mensaje rápido, complete y envíe el siguiente formulario.",
+        CONTACT_form_name: "Nombre",
+        CONTACT_form_email: "Correo electrónico",
+        CONTACT_form_message: "Mensaje",
+        CONTACT_form_submit: "Enviar"
     }
 }
