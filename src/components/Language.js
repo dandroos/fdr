@@ -58,7 +58,7 @@ export default {
         and: ' and ',
         or: ' or ',
 
-        share: 'Share this page',
+        share: 'Share',
 
         legal_notice: "The Fuerteventura Dog Rescue Association is a legally constituted Association since the 17th of March 2013 with the Spanish Tax Id G76151851, inscribed in the Canarian Government general register of Canarian Associations with the number G1/S1/19399-13F and inscribed in the Spanish Data Protection Agency with the number 2130840450.", 
 

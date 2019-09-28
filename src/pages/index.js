@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import { Jumbotron, Button, Container } from "reactstrap"
@@ -11,16 +11,6 @@ import Fade from "react-reveal/Fade"
 
 
 const IndexPage = props => {
-  const [message, setMessage] = useState("Ready?")
-
-  const handleClick = e => {
-    e.preventDefault()
-    if (message === "Ready?" || message === "Vamos!") {
-      setMessage("Let's go!")
-    } else {
-      setMessage("Vamos!")
-    }
-  }
 
   return (
     <Layout>
@@ -46,7 +36,7 @@ const IndexPage = props => {
                     <p className="lead bg-secondary text-light p-2">
                       <FormattedMessage id="hero_subheading" defaultMessage="en" />
                     </p>
-                    <Button color="light" size="lg" onClick={handleClick} className="p-3 text-secondary font-weight-bold">
+                    <Button color="light" size="lg" className="p-3 text-secondary font-weight-bold">
                     <FormattedMessage id="cta_button_text" defaultMessage="en" />
                 </Button>
                   </div>
