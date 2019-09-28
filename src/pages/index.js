@@ -1,24 +1,17 @@
 import React, { useState } from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
-import { Jumbotron, Button, Container, Col, Row } from "reactstrap"
+import { Jumbotron, Button, Container } from "reactstrap"
 import FDRLogo from "../images/fdr-logo.png"
 import { HeroBg } from "../components/Images"
 
 import { FormattedMessage } from 'react-intl'
 import Fade from "react-reveal/Fade"
 
-import { useTransition, animated } from "react-spring"
 
 
 const IndexPage = props => {
   const [message, setMessage] = useState("Ready?")
-
-  const transitions = useTransition(message, null, {
-    from: { position: "absolute", opacity: 0, transform: "translateX(-50px)" },
-    enter: { position: "relative", opacity: 1, transform: "translateX(0px)" },
-    leave: { display: "none" },
-  })
 
   const handleClick = e => {
     e.preventDefault()

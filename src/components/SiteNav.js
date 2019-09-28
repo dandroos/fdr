@@ -5,7 +5,6 @@ import Helmet from 'react-helmet'
 import { TransitionPortal } from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import {
-  Button,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -35,6 +34,7 @@ function SiteNav(props) {
         return 'gb'
       case 'es':
         return 'es'
+      default: return 'en'
     }
   }
 

@@ -8,13 +8,14 @@
 
 const path = require('path');
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async function({ actions, graphql }){
+    
     const { createPage } = actions
 
     const postTemplate = path.resolve('src/templates/article.js');
     const dogTemplate = path.resolve('src/templates/dog.js');
 
-    const articles = graphql(`
+    await graphql(`
     {
         articles: allMarkdownRemark(filter: {frontmatter: {type: {eq: "article"}}}) {
             edges {

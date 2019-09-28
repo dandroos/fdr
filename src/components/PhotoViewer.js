@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Img from 'gatsby-image'
-import { UncontrolledCarousel } from 'reactstrap'
 
 export default function PhotoViewer(props) {
 

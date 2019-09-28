@@ -7,16 +7,7 @@ import PhotoGallery from "../components/PhotoGallery"
 
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-import {
-  Container,
-  Row,
-  Col,
-  Table,
-  Badge,
-  Alert,
-  Button,
-  Tooltip,
-} from "reactstrap"
+import { Container, Row, Col, Table, Badge, Alert, Tooltip } from "reactstrap"
 
 import { FormattedMessage } from "react-intl"
 import moment from "moment"
@@ -31,6 +22,7 @@ function DogPage(props) {
     for (let language in props.data.dogdata.frontmatter.lang) {
       remark()
         .use(html)
+        // eslint-disable-next-line
         .process(props.data.dogdata.frontmatter.lang[language], (err, file) => {
           if (err) {
             console.log(err)
@@ -65,6 +57,8 @@ function DogPage(props) {
       break
     case "preadoption":
       status = "in_preadoption"
+      break
+    default:
       break
   }
   return (

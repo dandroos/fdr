@@ -1,10 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
 import { Container, Row, Col } from 'reactstrap'
 import { graphql, useStaticQuery } from 'gatsby'
 import moment from 'moment'
 import { FormattedMessage } from 'react-intl'
-import messages from '../components/Language'
 import Layout from '../components/Layout'
 import Dog from '../components/Dog'
 
@@ -77,6 +76,9 @@ function DogsPage(props) {
                 return <Col sm={12} md={6}>
                   <Dog data={dog.node.frontmatter} />
                 </Col>
+              }
+              else{
+                return null;
               }
             })
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import Img from 'gatsby-image'
 import { graphql } from 'gatsby'
 import StaticPage from '../components/StaticPage'
 import { FormattedMessage } from 'react-intl'

@@ -1,5 +1,4 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { Map, TileLayer, Marker } from 'react-leaflet'
 
 export default function LocationMap() {

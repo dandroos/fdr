@@ -1,7 +1,7 @@
 import React from 'react'
 import Img from 'gatsby-image'
 import Layout from './Layout'
-import { Container, Row, Col, Button } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import { FormattedMessage } from 'react-intl'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 

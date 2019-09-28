@@ -1,5 +1,5 @@
 import React from "react"
-import { Button, Container, Row, Col } from "reactstrap"
+import { Button, Col } from "reactstrap"
 import { FormattedMessage } from "react-intl"
 
 export default function ContactMethod(props) {
@@ -22,15 +22,5 @@ export default function ContactMethod(props) {
           </span>
         </Button>
       </Col>
-    // <Container className="bg-primary text-light p-3">
-    //     <Row className="d-flex justify-content-center align-items-center">
-    //         <Col>
-    //             <h3 className="display-5 mb-0"><i class={props.icon}></i> Messenger</h3>
-    //         </Col>
-    //         <Col>
-    //             <span>fuerteventuradogrescue</span>
-    //         </Col>
-    //     </Row>
-    // </Container>
   )
 }

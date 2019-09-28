@@ -3,8 +3,8 @@ import { connect } from 'react-redux'
 import Img from "gatsby-image"
 
 import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, ListGroup, ListGroupItem, Table, Badge
+  Card, CardBody,
+  CardTitle, Table, Badge
 } from 'reactstrap';
 
 import AniLink from "gatsby-plugin-transition-link"
@@ -32,6 +32,7 @@ function DogData(props) {
     case 'preadoption':
       status = 'in_preadoption';
       break;
+    default:  break;
   }
 
   const [pushUp, setPushUp] = useState(null)

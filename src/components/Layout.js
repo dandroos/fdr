@@ -15,8 +15,6 @@ import { IntlProvider } from 'react-intl'
 import messages from './Language'
 import Fade from "react-reveal/Fade"
 
-import { Container } from "reactstrap"
-
 import SiteNav from "./SiteNav"
 import Footer from "./Footer"
 

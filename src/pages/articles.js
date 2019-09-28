@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
-import { Container, Row, Col } from "reactstrap"
+import { Container, Row } from "reactstrap"
 
 import Fade from "react-reveal/Fade"
 
