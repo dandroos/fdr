@@ -121,7 +121,7 @@ function DogsPage(props) {
                 <span className="font-weight-bold">
                   <FormattedMessage id="last_updated" defaultMessage="en" />:
                 </span>{" "}
-                {moment(modifiedDate).fromNow()}
+                {moment(modifiedDate, "YYYY-MM-DD").fromNow()}
               </small>
             </p>
           </div>

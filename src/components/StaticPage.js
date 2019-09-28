@@ -17,7 +17,6 @@ import {
 } from "react-share"
 
 export default function StaticPage(props) {
-  console.log(props)
 
   return (
     <Layout>
