@@ -43,7 +43,7 @@
     "reactstrap": "^8.0.1",
     "redux": "^4.0.4",
     "remark": "^11.0.1",
-    "remark-html": "^10.0.0"
+    "remark-html": "^13.0.2"
   },
   "devDependencies": {
     "bootstrap": "^4.3.1",
